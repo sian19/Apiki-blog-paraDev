@@ -7,3 +7,9 @@
 </ul>
 
 <h3>Oque foi feito para construir a aplicação:</h3>
+<ul>
+  <li>Se utilizou componentes funcionais para renderizá-los em tela.</li>
+  <li>Se utilizou react hooks como(useState, useEffect, useRef).</li>
+  <li>Para consumir a API eu optei por utilizar o axios por ser mais prático o uso do que o fetch.</li>
+  <li> A cada request feita pelo usuário o resultado dela é  guardada dentro de um estado em forma de array que em seguida eu usei o método map para passar por cada elemento dessa array e renderizá-lo em tela.</li>
+</ul>
