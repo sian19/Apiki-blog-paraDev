@@ -15,4 +15,4 @@
 </ul>
 
 <h3>Link:</h3>
-<a href="Clique aqui">"https://apiki-blog-para-dev.vercel.app/"</a>
+<a href="https://apiki-blog-para-dev.vercel.app/">Clique aqui</a>
