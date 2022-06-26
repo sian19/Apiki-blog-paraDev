@@ -13,3 +13,6 @@
   <li>Para consumir a API eu optei por utilizar o axios por ser mais prático o uso do que o fetch.</li>
   <li> A cada request feita pelo usuário o resultado dela é  guardada dentro de um estado em forma de array que em seguida eu usei o método map para passar por cada elemento dessa array e renderizá-lo em tela.</li>
 </ul>
+
+<h3>Link:</h3>
+<a href="Clique aqui">"https://apiki-blog-para-dev.vercel.app/"</a>
