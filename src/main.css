@@ -1,0 +1,262 @@
+main {
+    width: 100%;
+    background: linear-gradient(#427AA1, #87bee6);
+    padding: 12px 2%;
+}
+
+main .center {
+    width: 100%;
+    max-width: 750px;
+    padding: 20px 0;
+    margin: auto;
+}
+
+main .center>h2 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.card {
+    max-width: 100%;
+    border-radius: 12px;
+    padding: 12px 4px;
+    background-color: rgba(240, 248, 255, 0.4);
+    animation-name: animacao;
+    animation-duration: 0.6s;
+}
+
+.card:not(:first-child) {
+    margin-top: 60px;
+}
+
+.image {
+    width: 100%;
+}
+
+.image>img {
+    width: 100%;
+}
+
+.card h2 {
+    font-size: 1.4rem;
+    color: aliceblue;
+    padding: 3px 0;
+}
+
+.card h3 {
+    font-size: 0.80rem;
+    color: #EBF2FA;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.card a {
+    text-decoration: none;
+    color: #427AA1;
+    font-size: 0.90rem;
+    position: relative;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.card a:hover {
+    color: #EBF2FA;
+}
+
+.card a::before {
+    content: '';
+    width: 0;
+    height: 1px;
+    background-color: #EBF2FA;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.6s;
+}
+
+.card a:hover:before {
+    width: 100%;
+}
+
+.Author {
+    padding: 12px 10px;
+    display: flex;
+    background-color: rgba(235, 242, 250, 0.6);
+    margin-top: 20px;
+    border-radius: 12px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 23px;
+}
+
+.Author img {
+    border-radius: 50%;
+    max-width: 82px;
+}
+
+.Author .container h3 {
+    font-size: 1rem;
+    color: #427AA1;
+    padding-bottom: 6px;
+}
+
+.Author .container p {
+    font-size: 0.80rem;
+    color: #427AA1;
+    font-style: italic;
+}
+
+button {
+    cursor: pointer;
+    display: block;
+    margin-top: 16px;
+    padding: 6px 10px;
+    border-radius: 120px;
+    border: 1px solid #427AA1;
+    color: #427AA1;
+    font-style: italic;
+    transition: 0.6s;
+    font-size: 0.60rem;
+}
+
+button:hover {
+    background-color: #427AA1;
+    color: #EBF2FA;
+}
+
+.page {
+    color: #EBF2FA;
+    padding-top: 12px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    animation-name: animacao;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+}
+
+@keyframes animacao {
+    0% {
+        transform: rotatex(0);
+    }
+
+    100% {
+        transform: rotatex(360deg);
+    }
+}
+
+.post {
+    width: 100%;
+    margin-top: 36px;
+}
+
+.post>img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.post>h2 {
+    font-size: 1.5rem;
+    color: aliceblue;
+    padding: 8px 0;
+}
+
+.post>h3 {
+    font-size: 0.92rem;
+    color: #EBF2FA;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.post>p {
+    color: #113853;
+    font-size: 0.90rem;
+    line-height: 1.4;
+}
+
+@media screen and (max-width: 450px) {
+    .post>h2 {
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    .post>h3 {
+        font-size: 0.84rem;
+        text-align: center;
+    }
+
+    .post>p {
+        font-size: 0.82rem;
+        text-align: left;
+    }
+
+    button {
+        font-size: 0.50rem;
+    }
+
+    .page {
+        font-size: 0.90rem;
+        padding-bottom: 12px;
+    }
+
+    main .center>h2 {
+        font-size: 1.5rem;
+    }
+
+    .card h2 {
+        font-size: 1rem;
+    }
+
+    .card h3 {
+        font-size: 0.70rem;
+    }
+
+    .card a {
+        font-size: 0.80rem;
+        display: block;
+        margin: auto;
+    }
+
+    .card h2,
+    .card h3,
+    .card a {
+        text-align: center;
+    }
+
+    .card a:hover:before {
+        width: 0;
+    }
+
+    .Author .container h3 {
+        font-size: 0.90rem;
+    }
+
+    .Author .container p {
+        font-size: 0.70rem;
+    }
+
+    .Author img {
+        max-width: 65px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .Author {
+        flex-direction: column;
+    }
+
+    .Author .container {
+        text-align: center;
+    }
+}
+
+html {
+    background: #427AA1;
+}

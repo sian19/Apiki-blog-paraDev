@@ -1,0 +1,35 @@
+footer {
+    width: 100%;
+    padding: 11px 0;
+    background-color: #EBF2FA;
+    text-align: center;
+    line-height: 1.2;
+}
+
+footer>img:nth-of-type(1) {
+    max-width: 64px;
+}
+
+footer>h3 {
+    font-size: 0.76rem;
+    color: #427AA1;
+}
+
+footer>a>img {
+    max-width: 22px;
+    margin-top: 6px;
+}
+
+@media screen and (max-width: 450px) {
+    footer>img:nth-of-type(1) {
+        max-width: 52px;
+    }
+
+    footer>h3 {
+        font-size: 0.66rem;
+    }
+
+    footer>a>img {
+        max-width: 18px;
+    }
+}
