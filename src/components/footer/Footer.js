@@ -10,7 +10,7 @@ function Footer() {
         <footer>
             <img src={img} alt="logo footer" />
             <h3>Sean Taron Dev</h3>
-            <a href=""><img src={git} alt="github" /></a>
+            <a href="https://github.com/sian19/Apiki-blog-paraDev"><img src={git} alt="github" /></a>
         </footer>
     );
 }
