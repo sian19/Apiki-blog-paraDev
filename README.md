@@ -5,3 +5,5 @@
 <ul>
   <li>React.Js</li>
 </ul>
+
+<h3>Oque foi feito para construir a aplicação:</h3>
